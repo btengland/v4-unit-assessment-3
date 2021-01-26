@@ -167,7 +167,7 @@ class Hero extends Player {
   }
 
   useSuperPower = (index) => {
-    return `${this.name} used ${this.power.index}!`
+    return `${this.name} used ${index[power]}!`
   }
 }
 
